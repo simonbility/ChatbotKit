@@ -36,7 +36,5 @@ let login = FlowBuilder
     }
 
 
-login.link(exit: login.exits.done, to: resetPassword)
 
-
-print(login.render())
+print(resetPassword.render())
